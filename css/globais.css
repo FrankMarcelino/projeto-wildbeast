@@ -50,3 +50,11 @@ header nav a {
 .sidenav li a:hover {
     background: #b07dfb;
 }
+
+/* footer */
+
+.footer p {
+    color: white;
+    text-align: center;
+    padding: 30px;
+}

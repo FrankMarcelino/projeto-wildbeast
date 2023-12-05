@@ -28,10 +28,16 @@
     grid-area: content;
 }
 
-.anuncuios {
+.anuncios {
     grid-area: anuncios;
+    background: #fafbfc;
+    display: grid;
+    align-content: start;
+    padding: 30px;
+    gap: 30px;
 }
 
 .footer {
     grid-area: footer;
+    display: grid;
 }
