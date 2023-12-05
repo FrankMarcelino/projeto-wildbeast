@@ -20,6 +20,8 @@
 
 .sidenav {
     grid-area: sidenav;
+    background: #fafbfc;
+    padding: 30px;
 }
 
 .content {
