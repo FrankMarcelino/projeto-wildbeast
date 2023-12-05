@@ -43,12 +43,12 @@ header nav a {
 }
 
 .titulo span {
-    font-size: 0.975rem;
+    font-size: 1.2rem;
     font-style: italic;
 }
 
 p {
-    font-size: 1.2rem;
+    font-size: 1.5rem;
     line-height: 1.6;
     letter-spacing: -0.005rem;
     color: rgba(0, 0, 0, .7);
@@ -58,7 +58,40 @@ p {
     margin-top: 30px;
 }
 
+.destaque {
+    font-size: 1.2rem;
+    color: #b07dfb;
+    max-width: 16rem;
+}
 
+.citacao,
+.atributos {
+    align-self: start;
+    padding: 30px;
+    border-radius: 5px;
+    box-shadow: 5px 5px 15px 0px rgba(44, 44, 44, .15);
+}
+
+.citacao p {
+    font-size: 2rem;
+    font-style: italic;
+    text-align: center;
+    max-width: 500px;
+    margin: 0 auto;
+    color: white;
+}
+
+.atributos li {
+    color: white;
+    font-family: 'Courier New', Courier, monospace;
+    font-size: 1.5rem;
+    padding: 15px;
+
+}
+
+.atributos li + li {
+    border-top: 2px solid #b07dfb;
+}
 
 /* caracteristicas */
 
